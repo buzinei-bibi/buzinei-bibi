@@ -96,27 +96,38 @@ text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-styl
 
 
 CONTATOS = [
-    ('portfolio', 'portfólio', None, 132),
-    ('linkedin', 'linkedin', 'linkedin', 136),
-    ('instagram', 'instagram', 'instagram', 150),
+    ('portfolio', 'portfólio', 'portfolio', 158),
+    ('linkedin', 'linkedin', 'linkedin', 150),
+    ('instagram', 'instagram', 'instagram', 162),
 ]
 
+# marcas desenhadas numa caixa de 24×24, em branco sobre o círculo da cor da marca
+MARCAS = {
+    'linkedin': ('#0a66c2', '''<g fill="#fff" transform="translate(-1.6 0)"><circle cx="8" cy="6.9" r="1.95"/><rect x="6.3" y="10" width="3.4" height="8.6" rx=".5"/>
+<path d="M11.6 10h3.2v1.5c.6-1 1.7-1.8 3.3-1.8 2.6 0 3.6 1.7 3.6 4.4v4.5h-3.3v-4c0-1.2-.4-2-1.5-2-1.2 0-1.8.9-1.8 2v4h-3.5z"/></g>'''),
+    'instagram': ('url(#ig)', '''<g fill="none" stroke="#fff" stroke-width="1.9"><rect x="5" y="5" width="14" height="14" rx="4.3"/><circle cx="12" cy="12" r="3.3"/></g>
+<circle cx="16.1" cy="7.9" r="1.1" fill="#fff"/>'''),
+    'portfolio': (None, '''<g fill="none" stroke="#fff" stroke-width="1.7"><circle cx="12" cy="12" r="7"/><ellipse cx="12" cy="12" rx="3" ry="7"/><path d="M5 12h14"/></g>'''),
+}
 
-def pilula(texto, ic, largura, tema):
+R = 18
+
+
+def pilula(texto, marca, largura, tema):
     t = TEMAS[tema]
-    if ic:
-        marca = (f'<clipPath id="c"><circle cx="24" cy="22" r="13"/></clipPath>'
-                 f'<image clip-path="url(#c)" x="11" y="9" width="26" height="26" href="data:image/svg+xml;base64,{icone(ic, tema)}"/>')
-    else:
-        marca = f'<circle cx="24" cy="22" r="6" fill="{t["ac"]}"/>'
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{largura}" height="44" viewBox="0 0 {largura} 44" role="img" aria-label="{escape(texto)}">
+    cor, desenho = MARCAS[marca]
+    cor = cor or t['ac']
+    s = 2 * R / 24
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{largura}" height="52" viewBox="0 0 {largura} 52" role="img" aria-label="{escape(texto)}">
+<defs><radialGradient id="ig" cx="30%" cy="107%" r="150%"><stop offset="0" stop-color="#fdf497"/><stop offset=".05" stop-color="#fdf497"/><stop offset=".45" stop-color="#fd5949"/><stop offset=".6" stop-color="#d6249f"/><stop offset=".9" stop-color="#285aeb"/></radialGradient></defs>
 <style>
 @font-face{{font-family:buzina;font-weight:700;font-style:italic;src:url(data:font/woff2;base64,{FONTE}) format("woff2")}}
-text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-style:italic;font-size:17px;fill:{t["tx"]}}}
+text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-style:italic;font-size:19px;fill:{t["tx"]}}}
 </style>
-<rect x=".5" y=".5" width="{largura - 1}" height="43" rx="22" fill="{t["bg"]}" stroke="{t["borda"]}"/>
-{marca}
-<text x="46" y="28">{escape(texto)}</text>
+<rect x=".5" y=".5" width="{largura - 1}" height="51" rx="26" fill="{t["bg"]}" stroke="{t["borda"]}"/>
+<circle cx="26" cy="26" r="{R}" fill="{cor}"/>
+<g transform="translate({26 - R} {26 - R}) scale({s:.4f})">{desenho}</g>
+<text x="54" y="32">{escape(texto)}</text>
 </svg>'''
 
 
