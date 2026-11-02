@@ -8,14 +8,14 @@
 𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅𝒆: 𝒎𝒆𝒎𝒃𝒓𝒂 𝒅𝒂 [𝒉𝒆𝟒𝒓𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔](https://heartdevs.com/)<br />
 𝒑𝒐𝒓𝒕𝒇𝒐́𝒍𝒊𝒐: [𝒃𝒖𝒛𝒊𝒏𝒂.𝒐𝒏𝒓𝒆𝒏𝒅𝒆𝒓.𝒄𝒐𝒎](https://buzina.onrender.com)
 
-𝒇𝒐𝒓𝒂 𝒅𝒐 𝒄𝒐́𝒅𝒊𝒈𝒐, 𝒈𝒐𝒔𝒕𝒐 𝒅𝒆 𝒇𝒖𝒕𝒆𝒃𝒐𝒍, 𝒕𝒆̂𝒏𝒊𝒔 𝒅𝒆 𝒎𝒆𝒔𝒂, 𝒗𝒐̂𝒍𝒆𝒊, 𝒂𝒏𝒊𝒎𝒆𝒔 𝒆 𝒅𝒆 𝒐𝒖𝒗𝒊𝒓 𝒎𝒖́𝒔𝒊𝒄𝒂 𝒐 𝒕𝒆𝒎𝒑𝒐 𝒕𝒐𝒅𝒐, 𝒔𝒆𝒎𝒑𝒓𝒆 𝒂𝒄𝒐𝒎𝒑𝒂𝒏𝒉𝒂𝒅𝒂 𝒅𝒆 𝒖𝒎 𝒎𝒐𝒏𝒔𝒕𝒆𝒓. 𝒔𝒆 𝒆𝒖 𝒏𝒂̃𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓 𝒆𝒔𝒕𝒖𝒅𝒂𝒏𝒅𝒐 𝒐𝒖 𝒇𝒂𝒍𝒂𝒏𝒅𝒐 𝒔𝒐𝒃𝒓𝒆 𝒇𝒖𝒕𝒆𝒃𝒐𝒍, 𝒑𝒓𝒐𝒗𝒂𝒗𝒆𝒍𝒎𝒆𝒏𝒕𝒆 𝒆𝒔𝒕𝒂𝒓𝒆𝒊 𝒃𝒖𝒛𝒊𝒏𝒂𝒏𝒅𝒐 𝒃𝒊𝒃𝒊 🚗
-
-<p align="center">
+<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/contribuicoes-dark.svg" />
-    <img src="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/contribuicoes.svg" alt="minhas contribuições no github de julho em diante" />
+    <img align="left" src="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/contribuicoes.svg" alt="cobrinha comendo minhas contribuições no github de julho em diante" />
   </picture>
+  𝒇𝒐𝒓𝒂 𝒅𝒐 𝒄𝒐́𝒅𝒊𝒈𝒐, 𝒈𝒐𝒔𝒕𝒐 𝒅𝒆 𝒇𝒖𝒕𝒆𝒃𝒐𝒍, 𝒕𝒆̂𝒏𝒊𝒔 𝒅𝒆 𝒎𝒆𝒔𝒂, 𝒗𝒐̂𝒍𝒆𝒊, 𝒂𝒏𝒊𝒎𝒆𝒔 𝒆 𝒅𝒆 𝒐𝒖𝒗𝒊𝒓 𝒎𝒖́𝒔𝒊𝒄𝒂 𝒐 𝒕𝒆𝒎𝒑𝒐 𝒕𝒐𝒅𝒐, 𝒔𝒆𝒎𝒑𝒓𝒆 𝒂𝒄𝒐𝒎𝒑𝒂𝒏𝒉𝒂𝒅𝒂 𝒅𝒆 𝒖𝒎 𝒎𝒐𝒏𝒔𝒕𝒆𝒓. 𝒔𝒆 𝒆𝒖 𝒏𝒂̃𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓 𝒆𝒔𝒕𝒖𝒅𝒂𝒏𝒅𝒐 𝒐𝒖 𝒇𝒂𝒍𝒂𝒏𝒅𝒐 𝒔𝒐𝒃𝒓𝒆 𝒇𝒖𝒕𝒆𝒃𝒐𝒍, 𝒑𝒓𝒐𝒗𝒂𝒗𝒆𝒍𝒎𝒆𝒏𝒕𝒆 𝒆𝒔𝒕𝒂𝒓𝒆𝒊 𝒃𝒖𝒛𝒊𝒏𝒂𝒏𝒅𝒐 𝒃𝒊𝒃𝒊 🚗
 </p>
+<br clear="left" />
 
 ---
 

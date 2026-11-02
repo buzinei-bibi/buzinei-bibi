@@ -9,6 +9,7 @@ from pathlib import Path
 INICIO = dt.date(2026, 7, 1)
 PASSO = 0.11  # segundos por casa andada
 TAMANHOS = [11, 9.5, 8, 6.5]  # cabeça → rabo
+FOLGA = 16  # espaço transparente à direita, entre o card e o texto ao lado
 MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez']
 FONTE = Path(__file__).resolve().parent.parent / 'assets' / 'fonts' / 'stix-two-text-bold-italic.woff2'
 
@@ -127,7 +128,7 @@ def svg(dias, hoje, tema):
         for k, tam in reversed(list(enumerate(TAMANHOS))))
 
     rotulo = 'contribuição' if total == 1 else 'contribuições'
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{largura}" height="{altura}" viewBox="0 0 {largura} {altura}" role="img" aria-label="cobrinha comendo minhas {total} {rotulo} de julho em diante">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{largura + FOLGA}" height="{altura}" viewBox="0 0 {largura + FOLGA} {altura}" role="img" aria-label="cobrinha comendo minhas {total} {rotulo} de julho em diante">
 <style>
 @font-face{{font-family:buzina;font-weight:700;font-style:italic;src:url(data:font/woff2;base64,{fonte}) format("woff2")}}
 text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-style:italic}}
@@ -137,10 +138,11 @@ text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-styl
 {"".join(quadros)}
 @media (prefers-reduced-motion:reduce){{.gomo{{display:none}}rect{{animation:none!important}}}}
 </style>
+<clipPath id="card"><rect width="{largura}" height="{altura}" rx="18"/></clipPath>
 <rect width="{largura}" height="{altura}" rx="18" fill="{t["bg"]}" stroke="{t["borda"]}"/>
 {"".join(meses)}
 <g>{"".join(celulas)}</g>
-<g>{gomos}</g>
+<g clip-path="url(#card)">{gomos}</g>
 </svg>'''
 
 
