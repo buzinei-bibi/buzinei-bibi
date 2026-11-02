@@ -1,123 +1,63 @@
-<h1 align="center">𝑶𝑰, 𝑬𝑼 𝑺𝑶𝑼 𝑨 𝑩𝑼𝒁𝑰𝑵𝑨 ..<br />𝑩𝑼𝒁𝑰𝑵𝑨 𝑫𝑬 𝑩𝑰𝑩𝑰 🚗</h1>
+<h1 align="center">𝒐𝒊, 𝒆𝒖 𝒔𝒐𝒖 𝒂 𝒃𝒖𝒛𝒊𝒏𝒂 .. 𝒃𝒖𝒛𝒊𝒏𝒂 𝒅𝒆 𝒃𝒊𝒃𝒊 <img src="assets/carla-mini.webp" height="36" align="absmiddle" alt="carla veloso" /></h1>
 
-<p align="center">
-  <a href="https://portifolio-b8h8.onrender.com">
-    <img src="https://readme-typing-svg.demolab.com?font=STIX+Two+Text&weight=600&size=22&duration=2600&pause=1000&color=E10600&center=true&vCenter=true&width=560&height=40&lines=full-stack+developer+em+forma%C3%A7%C3%A3o;front-end+%2B+back-end+com+php+e+sql;estudando+cybersecurity;membra+da+he4rt+developers;bibi!+%F0%9F%9A%97" alt="full-stack developer em formação · front-end + back-end com php e sql · estudando cybersecurity · membra da he4rt developers" />
-  </a>
-</p>
+## 𝒔𝒐𝒃𝒓𝒆 𝒎𝒊𝒎
 
-<p align="center">
-  <img width="520" src="assets/carla-veloso.webp" alt="carla veloso, de carros 2, parada na pista" />
-</p>
+𝒔𝒐𝒖 𝒇𝒖𝒍𝒍-𝒔𝒕𝒂𝒄𝒌 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝒆𝒎 𝒇𝒐𝒓𝒎𝒂𝒄̧𝒂̃𝒐. 𝒄𝒐𝒎𝒆𝒄𝒆𝒊 𝒑𝒆𝒍𝒐 𝒇𝒓𝒐𝒏𝒕-𝒆𝒏𝒅, 𝒐𝒏𝒅𝒆 𝒎𝒆 𝒇𝒐𝒓𝒎𝒆𝒊 𝒏𝒐 𝒄𝒖𝒓𝒔𝒐 𝒕𝒆́𝒄𝒏𝒊𝒄𝒐 𝒅𝒆 𝒊𝒏𝒇𝒐𝒓𝒎𝒂́𝒕𝒊𝒄𝒂 𝒑𝒂𝒓𝒂 𝒊𝒏𝒕𝒆𝒓𝒏𝒆𝒕, 𝒆 𝒉𝒐𝒋𝒆 𝒕𝒂𝒎𝒃𝒆́𝒎 𝒂𝒕𝒖𝒐 𝒏𝒐 𝒃𝒂𝒄𝒌-𝒆𝒏𝒅, 𝒄𝒖𝒊𝒅𝒂𝒏𝒅𝒐 𝒅𝒂 𝒑𝒂𝒓𝒕𝒆 𝒒𝒖𝒆 𝒏𝒊𝒏𝒈𝒖𝒆́𝒎 𝒗𝒆̂ 𝒄𝒐𝒎 𝒑𝒉𝒑 𝒆 𝒔𝒒𝒍.
 
----
+𝒆𝒎 𝒑𝒂𝒓𝒂𝒍𝒆𝒍𝒐, 𝒄𝒖𝒓𝒔𝒐 𝒄𝒚𝒃𝒆𝒓𝒔𝒆𝒄𝒖𝒓𝒊𝒕𝒚 𝒆 𝒆𝒔𝒕𝒖𝒅𝒐 𝒓𝒆𝒅𝒆𝒔 𝒆 𝒔𝒆𝒈𝒖𝒓𝒂𝒏𝒄̧𝒂, 𝒑𝒐𝒓𝒒𝒖𝒆 𝒒𝒖𝒆𝒓𝒐 𝒆𝒏𝒕𝒆𝒏𝒅𝒆𝒓 𝒏𝒂̃𝒐 𝒔𝒐́ 𝒄𝒐𝒎𝒐 𝒖𝒎 𝒔𝒊𝒔𝒕𝒆𝒎𝒂 𝒆́ 𝒄𝒐𝒏𝒔𝒕𝒓𝒖𝚤́𝒅𝒐, 𝒎𝒂𝒔 𝒕𝒂𝒎𝒃𝒆́𝒎 𝒄𝒐𝒎𝒐 𝒆𝒍𝒆 𝒆́ 𝒑𝒓𝒐𝒕𝒆𝒈𝒊𝒅𝒐.
 
-## 𝑺𝑶𝑩𝑹𝑬 𝑴𝑰𝑴
+- 📚 𝒆𝒔𝒕𝒖𝒅𝒂𝒏𝒅𝒐 𝒂𝒈𝒐𝒓𝒂: 𝒄𝒚𝒃𝒆𝒓𝒔𝒆𝒄𝒖𝒓𝒊𝒕𝒚, 𝒓𝒆𝒅𝒆𝒔 𝒆 𝒔𝒆𝒈𝒖𝒓𝒂𝒏𝒄̧𝒂
+- ❤️ 𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅𝒆: 𝒎𝒆𝒎𝒃𝒓𝒂 𝒅𝒂 [𝒉𝒆𝟒𝒓𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔](https://github.com/he4rt)
+- 🌐 𝒑𝒐𝒓𝒕𝒇𝒐́𝒍𝒊𝒐: [𝒑𝒐𝒓𝒕𝒊𝒇𝒐𝒍𝒊𝒐-𝒃𝟖𝒉𝟖.𝒐𝒏𝒓𝒆𝒏𝒅𝒆𝒓.𝒄𝒐𝒎](https://portifolio-b8h8.onrender.com)
 
-sou **full-stack developer** em formação. comecei pelo **front-end**, onde me formei no curso técnico de **informática para internet**, e hoje também atuo no **back-end**, cuidando da parte que ninguém vê com **php** e **sql**.
-
-em paralelo, curso **cybersecurity** e estudo redes e segurança, porque quero entender não só como um sistema é construído, mas também como ele é protegido.
-
-- 🎯 **procurando:** estágio ou vaga júnior como front-end developer ou full-stack developer
-- 📚 **estudando agora:** cybersecurity, redes e segurança
-- 🐍 **por conta própria:** python, que aprendi fora do curso e uso nos meus bots de discord e telegram
-- ❤️ **comunidade:** membra da [he4rt developers](https://github.com/he4rt)
-- 🌐 **portfólio:** [portifolio-b8h8.onrender.com](https://portifolio-b8h8.onrender.com)
-
-fora do código, gosto de futebol, tênis de mesa, vôlei, animes e de ouvir música o tempo todo, sempre acompanhada de um monster. se eu não estiver estudando ou falando sobre futebol, provavelmente estarei buzinando **BIBI** 🚗
-
----
-
-## 𝑯𝑬𝟒𝑹𝑻 𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑹𝑺
-
-contribuo com a comunidade em iniciativas de **open source** e com **pull requests**.
-
-considero a he4rt developers minha terceira casa, porque lá vai muito além de código: é sobre pessoas, colaboração, aprendizado e troca de experiências.
-
----
-
-## 𝑭𝑬𝑹𝑹𝑨𝑴𝑬𝑵𝑻𝑨𝑺 𝑬 𝑻𝑬𝑪𝑵𝑶𝑳𝑶𝑮𝑰𝑨𝑺
-
-<table>
-  <tr>
-    <td align="center"><b>𝑭𝑹𝑶𝑵𝑻-𝑬𝑵𝑫</b></td>
-    <td align="center"><b>𝑩𝑨𝑪𝑲-𝑬𝑵𝑫</b></td>
-    <td align="center"><b>𝑭𝑬𝑹𝑹𝑨𝑴𝑬𝑵𝑻𝑨𝑺</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind&perline=5" alt="html, css, javascript, react e tailwind" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=php,mysql,python&perline=3" alt="php, mysql e python" /></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=git,github,figma,vscode,npm&perline=5" alt="git, github, figma, vs code e npm" /></td>
-  </tr>
-</table>
-
----
-
-## 𝑨𝑻𝑰𝑽𝑰𝑫𝑨𝑫𝑬 𝑵𝑶 𝑮𝑰𝑻𝑯𝑼𝑩
+𝒇𝒐𝒓𝒂 𝒅𝒐 𝒄𝒐́𝒅𝒊𝒈𝒐, 𝒈𝒐𝒔𝒕𝒐 𝒅𝒆 𝒇𝒖𝒕𝒆𝒃𝒐𝒍, 𝒕𝒆̂𝒏𝒊𝒔 𝒅𝒆 𝒎𝒆𝒔𝒂, 𝒗𝒐̂𝒍𝒆𝒊, 𝒂𝒏𝒊𝒎𝒆𝒔 𝒆 𝒅𝒆 𝒐𝒖𝒗𝒊𝒓 𝒎𝒖́𝒔𝒊𝒄𝒂 𝒐 𝒕𝒆𝒎𝒑𝒐 𝒕𝒐𝒅𝒐, 𝒔𝒆𝒎𝒑𝒓𝒆 𝒂𝒄𝒐𝒎𝒑𝒂𝒏𝒉𝒂𝒅𝒂 𝒅𝒆 𝒖𝒎 𝒎𝒐𝒏𝒔𝒕𝒆𝒓. 𝒔𝒆 𝒆𝒖 𝒏𝒂̃𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓 𝒆𝒔𝒕𝒖𝒅𝒂𝒏𝒅𝒐 𝒐𝒖 𝒇𝒂𝒍𝒂𝒏𝒅𝒐 𝒔𝒐𝒃𝒓𝒆 𝒇𝒖𝒕𝒆𝒃𝒐𝒍, 𝒑𝒓𝒐𝒗𝒂𝒗𝒆𝒍𝒎𝒆𝒏𝒕𝒆 𝒆𝒔𝒕𝒂𝒓𝒆𝒊 𝒃𝒖𝒛𝒊𝒏𝒂𝒏𝒅𝒐 𝒃𝒊𝒃𝒊 🚗
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=buzinei-bibi&locale=pt_BR&hide_border=true&border_radius=28&background=09090C&stroke=131317&ring=E10600&fire=E10600&currStreakNum=F5F1F0&currStreakLabel=E10600&sideNums=F5F1F0&sideLabels=968E93&dates=968E93" />
-    <img src="https://streak-stats.demolab.com/?user=buzinei-bibi&locale=pt_BR&hide_border=true&border_radius=28&background=FFFFFF&stroke=ECE6FF&ring=6D28D9&fire=A855F7&currStreakNum=1C0F3A&currStreakLabel=6D28D9&sideNums=1C0F3A&sideLabels=5F5380&dates=5F5380" alt="sequência de contribuições no github" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/github-snake.svg" alt="cobrinha comendo o gráfico de contribuições do último ano" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/contribuicoes-dark.svg" />
+    <img src="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/contribuicoes.svg" alt="𝒎𝒊𝒏𝒉𝒂𝒔 𝒄𝒐𝒏𝒕𝒓𝒊𝒃𝒖𝒊𝒄̧𝒐̃𝒆𝒔 𝒏𝒐 𝒈𝒊𝒕𝒉𝒖𝒃 𝒅𝒆 𝒋𝒖𝒍𝒉𝒐 𝒆𝒎 𝒅𝒊𝒂𝒏𝒕𝒆" />
   </picture>
 </p>
 
 ---
 
-## 𝑷𝑹𝑶𝑱𝑬𝑻𝑶𝑺 𝑬𝑴 𝑫𝑬𝑺𝑻𝑨𝑸𝑼𝑬
+## 𝒉𝒆𝟒𝒓𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>𝑻𝑨𝑼𝑩𝑨𝑻𝑬 𝑬𝑺𝑷𝑶𝑹𝑻𝑬𝑺</h3>
-      portal que dá visibilidade a modalidades de taubaté que quase não aparecem na mídia local, como handebol, tênis de mesa e vôlei, com próximos jogos, resultados e calendário de partidas.
-      <br /><br />
-      <b>react.js · javascript · tailwind css</b>
-      <br /><br />
-      <a href="https://esportes-zgzb.onrender.com/">ver site</a> · <a href="https://github.com/buzinei-bibi/esportes">código</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>𝑯𝑬𝟒𝑹𝑻 𝑸𝑼𝑰𝒁</h3>
-      bot de discord que manda uma pergunta por dia sobre tecnologia para a comunidade he4rt developers.
-      <br /><br />
-      <b>python · discord</b>
-      <br /><br />
-      <a href="https://github.com/buzinei-bibi/bot-perguntas">código</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>𝑭𝑶𝑹𝑴𝑼𝑳𝑨 𝟏 — 𝑳𝑰𝑮𝑯𝑻𝑺 𝑶𝑼𝑻</h3>
-      site sobre fórmula 1 que liga o motor: um v6 turbo-híbrido sintetizado no navegador, que ronca conforme você rola a página.
-      <br /><br />
-      <b>html · css · javascript</b>
-      <br /><br />
-      <a href="https://github.com/buzinei-bibi/f1">código</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>𝑩𝑼𝒁𝑰𝑵𝑨 𝑫𝑬 𝑩𝑰𝑩𝑰</h3>
-      meu portfólio, com tema claro e escuro e uma buzina que funciona de verdade.
-      <br /><br />
-      <b>html · css · javascript</b>
-      <br /><br />
-      <a href="https://portifolio-b8h8.onrender.com">ver site</a> · <a href="https://github.com/buzinei-bibi/buzina">código</a>
-    </td>
-  </tr>
-</table>
+𝒄𝒐𝒏𝒕𝒓𝒊𝒃𝒖𝒐 𝒄𝒐𝒎 𝒂 𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅𝒆 𝒆𝒎 𝒊𝒏𝒊𝒄𝒊𝒂𝒕𝒊𝒗𝒂𝒔 𝒅𝒆 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒆 𝒄𝒐𝒎 𝒑𝒖𝒍𝒍 𝒓𝒆𝒒𝒖𝒆𝒔𝒕𝒔.
+
+𝒄𝒐𝒏𝒔𝒊𝒅𝒆𝒓𝒐 𝒂 𝒉𝒆𝟒𝒓𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔 𝒎𝒊𝒏𝒉𝒂 𝒕𝒆𝒓𝒄𝒆𝒊𝒓𝒂 𝒄𝒂𝒔𝒂, 𝒑𝒐𝒓𝒒𝒖𝒆 𝒍𝒂́ 𝒗𝒂𝒊 𝒎𝒖𝒊𝒕𝒐 𝒂𝒍𝒆́𝒎 𝒅𝒆 𝒄𝒐́𝒅𝒊𝒈𝒐: 𝒆́ 𝒔𝒐𝒃𝒓𝒆 𝒑𝒆𝒔𝒔𝒐𝒂𝒔, 𝒄𝒐𝒍𝒂𝒃𝒐𝒓𝒂𝒄̧𝒂̃𝒐, 𝒂𝒑𝒓𝒆𝒏𝒅𝒊𝒛𝒂𝒅𝒐 𝒆 𝒕𝒓𝒐𝒄𝒂 𝒅𝒆 𝒆𝒙𝒑𝒆𝒓𝒊𝒆̂𝒏𝒄𝒊𝒂𝒔.
 
 ---
 
-## 𝑶𝑵𝑫𝑬 𝑴𝑬 𝑬𝑵𝑪𝑶𝑵𝑻𝑹𝑨𝑹?
+## 𝒇𝒆𝒓𝒓𝒂𝒎𝒆𝒏𝒕𝒂𝒔 𝒆 𝒕𝒆𝒄𝒏𝒐𝒍𝒐𝒈𝒊𝒂𝒔
 
-se eu não estiver buzinando, você provavelmente pode me encontrar por aqui:
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills/front-end-dark.svg" /><img width="32%" src="assets/skills/front-end.svg" alt="front-end: html, css, javascript, react e tailwind" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills/back-end-dark.svg" /><img width="32%" src="assets/skills/back-end.svg" alt="back-end: php, mysql e python" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills/ferramentas-dark.svg" /><img width="32%" src="assets/skills/ferramentas.svg" alt="ferramentas: git, github, figma, vs code e npm" /></picture>
+</p>
 
-[![portfólio](https://img.shields.io/badge/portf%C3%B3lio-buzina%20de%20bibi-E10600?style=for-the-badge&logo=googlechrome&logoColor=white)](https://portifolio-b8h8.onrender.com)
-[![linkedin](https://img.shields.io/badge/linkedin-bianca%20vs-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/biancavs/)
-[![instagram](https://img.shields.io/badge/instagram-biibii__crf-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/biibii_crf)
+---
+
+## 𝒑𝒓𝒐𝒋𝒆𝒕𝒐𝒔 𝒆𝒎 𝒅𝒆𝒔𝒕𝒂𝒒𝒖𝒆
+
+<p align="center">
+  <a href="https://github.com/buzinei-bibi/esportes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projetos/taubate-dark.svg" /><img width="49%" src="assets/projetos/taubate.svg" alt="taubaté esportes: portal das modalidades de taubaté" /></picture></a>
+  <a href="https://github.com/buzinei-bibi/bot-perguntas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projetos/he4rt-quiz-dark.svg" /><img width="49%" src="assets/projetos/he4rt-quiz.svg" alt="he4rt quiz: bot de discord com uma pergunta por dia" /></picture></a>
+</p>
+<p align="center">
+  <a href="https://github.com/buzinei-bibi/f1"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projetos/f1-dark.svg" /><img width="49%" src="assets/projetos/f1.svg" alt="fórmula 1 — lights out: site que liga o motor" /></picture></a>
+  <a href="https://github.com/buzinei-bibi/buzina"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projetos/buzina-dark.svg" /><img width="49%" src="assets/projetos/buzina.svg" alt="buzina de bibi: meu portfólio" /></picture></a>
+</p>
+
+---
+
+## 𝒐𝒏𝒅𝒆 𝒎𝒆 𝒆𝒏𝒄𝒐𝒏𝒕𝒓𝒂𝒓?
+
+𝒔𝒆 𝒆𝒖 𝒏𝒂̃𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓 𝒃𝒖𝒛𝒊𝒏𝒂𝒏𝒅𝒐, 𝒗𝒐𝒄𝒆̂ 𝒑𝒓𝒐𝒗𝒂𝒗𝒆𝒍𝒎𝒆𝒏𝒕𝒆 𝒑𝒐𝒅𝒆 𝒎𝒆 𝒆𝒏𝒄𝒐𝒏𝒕𝒓𝒂𝒓 𝒑𝒐𝒓 𝒂𝒒𝒖𝒊:
+
+<p>
+  <a href="https://portifolio-b8h8.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contato/portfolio-dark.svg" /><img src="assets/contato/portfolio.svg" alt="portfólio" /></picture></a>
+  <a href="https://www.linkedin.com/in/biancavs/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contato/linkedin-dark.svg" /><img src="assets/contato/linkedin.svg" alt="linkedin" /></picture></a>
+  <a href="https://www.instagram.com/biibii_crf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contato/instagram-dark.svg" /><img src="assets/contato/instagram.svg" alt="instagram" /></picture></a>
+</p>
