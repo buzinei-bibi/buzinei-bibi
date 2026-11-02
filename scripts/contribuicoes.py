@@ -9,7 +9,7 @@ from pathlib import Path
 INICIO = dt.date(2026, 7, 1)
 PASSO = 0.11  # segundos por casa andada
 TAMANHOS = [11, 9.5, 8, 6.5]  # cabeça → rabo
-FOLGA = 16  # espaço transparente à direita, entre o card e o texto ao lado
+FOLGA = 16  # espaço transparente à esquerda, entre o texto e o card
 MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez']
 FONTE = Path(__file__).resolve().parent.parent / 'assets' / 'fonts' / 'stix-two-text-bold-italic.woff2'
 
@@ -128,7 +128,7 @@ def svg(dias, hoje, tema):
         for k, tam in reversed(list(enumerate(TAMANHOS))))
 
     rotulo = 'contribuição' if total == 1 else 'contribuições'
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{largura + FOLGA}" height="{altura}" viewBox="0 0 {largura + FOLGA} {altura}" role="img" aria-label="cobrinha comendo minhas {total} {rotulo} de julho em diante">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{largura + FOLGA}" height="{altura}" viewBox="-{FOLGA} 0 {largura + FOLGA} {altura}" role="img" aria-label="cobrinha comendo minhas {total} {rotulo} de julho em diante">
 <style>
 @font-face{{font-family:buzina;font-weight:700;font-style:italic;src:url(data:font/woff2;base64,{fonte}) format("woff2")}}
 text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-style:italic}}
