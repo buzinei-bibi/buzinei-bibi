@@ -1,25 +1,30 @@
 """gera os cards redondos dos projetos (assets/projetos/) e das skills (assets/skills/), no tema claro e no escuro.
 
-uso: python scripts/cards.py
+uso: python scripts/cards.py  (precisa de: pip install fonttools brotli)
 """
 import base64, textwrap, urllib.request
+from fontTools.pens.svgPathPen import SVGPathPen
+from fontTools.ttLib import TTFont
 from html import escape
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-FONTE = base64.b64encode((RAIZ / 'assets' / 'fonts' / 'stix-two-text-bold-italic.woff2').read_bytes()).decode()
+FONTES = RAIZ / 'assets' / 'fonts'
+FONTE = base64.b64encode((FONTES / 'stix-two-text-bold-italic.woff2').read_bytes()).decode()
+ITALICA = TTFont(FONTES / 'stix-two-text-bold-italic.woff2')
+RETA = TTFont(FONTES / 'stix-two-text-bold.woff2')
 
 PROJETOS = [
-    ('taubate', 'taubaté esportes',
+    ('taubate', 'azul', 'taubaté esportes',
      'portal que dá visibilidade a modalidades de taubaté que quase não aparecem na mídia local: handebol, tênis de mesa e vôlei.',
      'react.js · javascript · tailwind css'),
-    ('he4rt-quiz', 'he4rt quiz',
+    ('he4rt-quiz', 'roxo', 'he4rt quiz',
      'bot de discord que manda uma pergunta por dia sobre tecnologia para a comunidade he4rt developers.',
      'python · discord'),
-    ('f1', 'fórmula 1 — lights out',
+    ('f1', 'vermelho', 'fórmula 1 — lights out',
      'site sobre fórmula 1 que liga o motor: um v6 turbo-híbrido sintetizado no navegador, que ronca conforme você rola a página.',
      'html · css · javascript'),
-    ('buzina', 'buzina de bibi',
+    ('buzina', 'vermelho', 'buzina de bibi',
      'meu portfólio, com tema claro e escuro e uma buzina que funciona de verdade.',
      'html · css · javascript'),
 ]
@@ -29,31 +34,70 @@ TEMAS = {
     'light': dict(bg='#ffffff', borda='#e4dcff', tx='#1c0f3a', mu='#5f5380', ac='#6d28d9'),
 }
 
+CORES = {
+    'azul': {'dark': '#3b82f6', 'light': '#2563eb'},
+    'vermelho': {'dark': '#e10600', 'light': '#e10600'},
+    'roxo': {'dark': '#a855f7', 'light': '#7c3aed'},
+}
+
 L, A = 420, 210
 
 
-def card(titulo, desc, stack, tema):
+def largura(texto, tam):
+    cmap, hmtx = ITALICA.getBestCmap(), ITALICA['hmtx']
+    return sum(hmtx[cmap.get(ord(c), '.notdef')][0] for c in texto) * tam / ITALICA['head'].unitsPerEm
+
+
+def z_reto(x, y, tam, cor):
+    """o z da itálica é enrolado (parece "ʒ"); usa o z da fonte reta, inclinado no mesmo ângulo da itálica."""
+    gs = RETA.getGlyphSet()
+    pen = SVGPathPen(gs)
+    gs['z'].draw(pen)
+    esc = tam / RETA['head'].unitsPerEm
+    avanco = RETA['hmtx']['z'][0] * esc
+    return (f'<path fill="{cor}" transform="translate({x:.2f} {y}) skewX(-12) scale({esc:.4f} {-esc:.4f})" d="{pen.getCommands()}"/>',
+            avanco)
+
+
+def texto(conteudo, x, y, tam, cor, classe):
+    """escreve o texto em pedaços, trocando cada z pelo z reto inclinado."""
+    saida = []
+    for i, pedaco in enumerate(conteudo.split('z')):
+        if i:
+            glifo, avanco = z_reto(x, y, tam, cor)
+            saida.append(glifo)
+            x += avanco
+        if pedaco:
+            saida.append(f'<text class="{classe}" x="{x:.2f}" y="{y}">{escape(pedaco)}</text>')
+            x += largura(pedaco, tam)
+    return ''.join(saida)
+
+
+def card(titulo, desc, stack, cor, tema):
     t = TEMAS[tema]
-    linhas = textwrap.wrap(desc, 46)
-    corpo = ''.join(f'<tspan x="30" dy="{0 if i == 0 else 21}">{escape(l)}</tspan>' for i, l in enumerate(linhas))
+    ac = CORES[cor][tema]
+    corpo = ''.join(texto(l, 30, 110 + 21 * i, 14.5, t['mu'], 'd') for i, l in enumerate(textwrap.wrap(desc, 46)))
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{L}" height="{A}" viewBox="0 0 {L} {A}" role="img" aria-label="{escape(titulo)}: {escape(desc)}">
+<defs><radialGradient id="brilho" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(36 38) scale(260 170)">
+<stop offset="0" stop-color="{ac}" stop-opacity="{.16 if tema == "dark" else .09}"/><stop offset="1" stop-color="{ac}" stop-opacity="0"/></radialGradient></defs>
 <style>
 @font-face{{font-family:buzina;font-weight:700;font-style:italic;src:url(data:font/woff2;base64,{FONTE}) format("woff2")}}
-text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-style:italic}}
-.t{{font-size:21px;fill:{t["tx"]}}} .d{{font-size:14.5px;fill:{t["mu"]}}} .s{{font-size:13px;fill:{t["ac"]}}} .seta{{font-size:18px;fill:{t["ac"]}}}
+text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-style:italic;font-kerning:none}}
+.t{{font-size:21px;fill:{t["tx"]}}} .d{{font-size:14.5px;fill:{t["mu"]}}} .s{{font-size:13px;fill:{ac}}} .seta{{font-size:18px;fill:{ac}}}
 .conteudo{{opacity:0;animation:sobe .7s cubic-bezier(.2,.8,.2,1) .1s forwards}}
 .ponto{{animation:pisca 2.4s ease-in-out infinite}}
 @keyframes sobe{{from{{opacity:0;transform:translateY(8px)}}to{{opacity:1;transform:none}}}}
 @keyframes pisca{{50%{{opacity:.35}}}}
 @media (prefers-reduced-motion:reduce){{.conteudo{{animation:none;opacity:1}}.ponto{{animation:none}}}}
 </style>
-<rect x=".5" y=".5" width="{L - 1}" height="{A - 1}" rx="28" fill="{t["bg"]}" stroke="{t["borda"]}"/>
+<rect x=".5" y=".5" width="{L - 1}" height="{A - 1}" rx="28" fill="{t["bg"]}"/>
+<rect x=".5" y=".5" width="{L - 1}" height="{A - 1}" rx="28" fill="url(#brilho)" stroke="{ac}" stroke-opacity="{.45 if tema == "dark" else .35}"/>
 <g class="conteudo">
-<circle class="ponto" cx="36" cy="38" r="5" fill="{t["ac"]}"/>
+<circle class="ponto" cx="36" cy="38" r="5" fill="{ac}"/>
 <text class="seta" x="{L - 30}" y="44" text-anchor="end">↗</text>
-<text class="t" x="30" y="78">{escape(titulo)}</text>
-<text class="d" y="110">{corpo}</text>
-<text class="s" x="30" y="{A - 26}">{escape(stack)}</text>
+{texto(titulo, 30, 78, 21, t["tx"], "t")}
+{corpo}
+{texto(stack, 30, A - 26, 13, ac, "s")}
 </g>
 </svg>'''
 
@@ -134,9 +178,9 @@ text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-styl
 def main():
     pasta = RAIZ / 'assets' / 'projetos'
     pasta.mkdir(parents=True, exist_ok=True)
-    for nome, titulo, desc, stack in PROJETOS:
-        (pasta / f'{nome}.svg').write_text(card(titulo, desc, stack, 'light'), encoding='utf-8')
-        (pasta / f'{nome}-dark.svg').write_text(card(titulo, desc, stack, 'dark'), encoding='utf-8')
+    for nome, cor, titulo, desc, stack in PROJETOS:
+        (pasta / f'{nome}.svg').write_text(card(titulo, desc, stack, cor, 'light'), encoding='utf-8')
+        (pasta / f'{nome}-dark.svg').write_text(card(titulo, desc, stack, cor, 'dark'), encoding='utf-8')
     skills = RAIZ / 'assets' / 'skills'
     skills.mkdir(parents=True, exist_ok=True)
     for nome, titulo, icones in SKILLS:
