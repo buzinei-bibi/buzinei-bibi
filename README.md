@@ -4,11 +4,11 @@
 
 𝒔𝒐𝒖 𝒇𝒖𝒍𝒍-𝒔𝒕𝒂𝒄𝒌 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝒆𝒎 𝒇𝒐𝒓𝒎𝒂𝒄̧𝒂̃𝒐. 𝒄𝒐𝒎𝒆𝒄𝒆𝒊 𝒑𝒆𝒍𝒐 𝒇𝒓𝒐𝒏𝒕-𝒆𝒏𝒅, 𝒐𝒏𝒅𝒆 𝒎𝒆 𝒇𝒐𝒓𝒎𝒆𝒊 𝒏𝒐 𝒄𝒖𝒓𝒔𝒐 𝒕𝒆́𝒄𝒏𝒊𝒄𝒐 𝒅𝒆 𝒊𝒏𝒇𝒐𝒓𝒎𝒂́𝒕𝒊𝒄𝒂 𝒑𝒂𝒓𝒂 𝒊𝒏𝒕𝒆𝒓𝒏𝒆𝒕, 𝒆 𝒉𝒐𝒋𝒆 𝒕𝒂𝒎𝒃𝒆́𝒎 𝒂𝒕𝒖𝒐 𝒏𝒐 𝒃𝒂𝒄𝒌-𝒆𝒏𝒅, 𝒄𝒖𝒊𝒅𝒂𝒏𝒅𝒐 𝒅𝒂 𝒑𝒂𝒓𝒕𝒆 𝒒𝒖𝒆 𝒏𝒊𝒏𝒈𝒖𝒆́𝒎 𝒗𝒆̂ 𝒄𝒐𝒎 𝒑𝒉𝒑 𝒆 𝒔𝒒𝒍.
 
-𝒆𝒎 𝒑𝒂𝒓𝒂𝒍𝒆𝒍𝒐, 𝒄𝒖𝒓𝒔𝒐 𝒄𝒚𝒃𝒆𝒓𝒔𝒆𝒄𝒖𝒓𝒊𝒕𝒚 𝒆 𝒆𝒔𝒕𝒖𝒅𝒐 𝒓𝒆𝒅𝒆𝒔 𝒆 𝒔𝒆𝒈𝒖𝒓𝒂𝒏𝒄̧𝒂, 𝒑𝒐𝒓𝒒𝒖𝒆 𝒒𝒖𝒆𝒓𝒐 𝒆𝒏𝒕𝒆𝒏𝒅𝒆𝒓 𝒏𝒂̃𝒐 𝒔𝒐́ 𝒄𝒐𝒎𝒐 𝒖𝒎 𝒔𝒊𝒔𝒕𝒆𝒎𝒂 𝒆́ 𝒄𝒐𝒏𝒔𝒕𝒓𝒖𝚤́𝒅𝒐, 𝒎𝒂𝒔 𝒕𝒂𝒎𝒃𝒆́𝒎 𝒄𝒐𝒎𝒐 𝒆𝒍𝒆 𝒆́ 𝒑𝒓𝒐𝒕𝒆𝒈𝒊𝒅𝒐.
+𝒄𝒐𝒏𝒕𝒊𝒏𝒖𝒐 𝒆𝒔𝒕𝒖𝒅𝒂𝒏𝒅𝒐 𝒑𝒉𝒑 𝒆 𝒑𝒓𝒐𝒈𝒓𝒂𝒎𝒂𝒄̧𝒂̃𝒐 𝒆, 𝒆𝒎 𝒑𝒂𝒓𝒂𝒍𝒆𝒍𝒐, 𝒄𝒖𝒓𝒔𝒐 𝒄𝒚𝒃𝒆𝒓𝒔𝒆𝒄𝒖𝒓𝒊𝒕𝒚, 𝒐𝒏𝒅𝒆 𝒆𝒔𝒕𝒖𝒅𝒐 𝒓𝒆𝒅𝒆𝒔 𝒆 𝒔𝒆𝒈𝒖𝒓𝒂𝒏𝒄̧𝒂, 𝒑𝒐𝒓𝒒𝒖𝒆 𝒒𝒖𝒆𝒓𝒐 𝒆𝒏𝒕𝒆𝒏𝒅𝒆𝒓 𝒏𝒂̃𝒐 𝒔𝒐́ 𝒄𝒐𝒎𝒐 𝒖𝒎 𝒔𝒊𝒔𝒕𝒆𝒎𝒂 𝒆́ 𝒄𝒐𝒏𝒔𝒕𝒓𝒖𝚤́𝒅𝒐, 𝒎𝒂𝒔 𝒕𝒂𝒎𝒃𝒆́𝒎 𝒄𝒐𝒎𝒐 𝒆𝒍𝒆 𝒆́ 𝒑𝒓𝒐𝒕𝒆𝒈𝒊𝒅𝒐.
 
-- 📚 𝒆𝒔𝒕𝒖𝒅𝒂𝒏𝒅𝒐 𝒂𝒈𝒐𝒓𝒂: 𝒄𝒚𝒃𝒆𝒓𝒔𝒆𝒄𝒖𝒓𝒊𝒕𝒚, 𝒓𝒆𝒅𝒆𝒔 𝒆 𝒔𝒆𝒈𝒖𝒓𝒂𝒏𝒄̧𝒂
-- ❤️ 𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅𝒆: 𝒎𝒆𝒎𝒃𝒓𝒂 𝒅𝒂 [𝒉𝒆𝟒𝒓𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔](https://github.com/he4rt)
-- 🌐 𝒑𝒐𝒓𝒕𝒇𝒐́𝒍𝒊𝒐: [𝒑𝒐𝒓𝒕𝒊𝒇𝒐𝒍𝒊𝒐-𝒃𝟖𝒉𝟖.𝒐𝒏𝒓𝒆𝒏𝒅𝒆𝒓.𝒄𝒐𝒎](https://portifolio-b8h8.onrender.com)
+𝒆𝒔𝒕𝒖𝒅𝒂𝒏𝒅𝒐 𝒂𝒈𝒐𝒓𝒂: 𝒑𝒉𝒑, 𝒑𝒓𝒐𝒈𝒓𝒂𝒎𝒂𝒄̧𝒂̃𝒐 𝒆 𝒄𝒚𝒃𝒆𝒓𝒔𝒆𝒄𝒖𝒓𝒊𝒕𝒚<br />
+𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅𝒆: 𝒎𝒆𝒎𝒃𝒓𝒂 𝒅𝒂 [𝒉𝒆𝟒𝒓𝒕 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔](https://github.com/he4rt)<br />
+𝒑𝒐𝒓𝒕𝒇𝒐́𝒍𝒊𝒐: [𝒃𝒖𝒛𝒊𝒏𝒂.𝒐𝒏𝒓𝒆𝒏𝒅𝒆𝒓.𝒄𝒐𝒎](https://buzina.onrender.com)
 
 𝒇𝒐𝒓𝒂 𝒅𝒐 𝒄𝒐́𝒅𝒊𝒈𝒐, 𝒈𝒐𝒔𝒕𝒐 𝒅𝒆 𝒇𝒖𝒕𝒆𝒃𝒐𝒍, 𝒕𝒆̂𝒏𝒊𝒔 𝒅𝒆 𝒎𝒆𝒔𝒂, 𝒗𝒐̂𝒍𝒆𝒊, 𝒂𝒏𝒊𝒎𝒆𝒔 𝒆 𝒅𝒆 𝒐𝒖𝒗𝒊𝒓 𝒎𝒖́𝒔𝒊𝒄𝒂 𝒐 𝒕𝒆𝒎𝒑𝒐 𝒕𝒐𝒅𝒐, 𝒔𝒆𝒎𝒑𝒓𝒆 𝒂𝒄𝒐𝒎𝒑𝒂𝒏𝒉𝒂𝒅𝒂 𝒅𝒆 𝒖𝒎 𝒎𝒐𝒏𝒔𝒕𝒆𝒓. 𝒔𝒆 𝒆𝒖 𝒏𝒂̃𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓 𝒆𝒔𝒕𝒖𝒅𝒂𝒏𝒅𝒐 𝒐𝒖 𝒇𝒂𝒍𝒂𝒏𝒅𝒐 𝒔𝒐𝒃𝒓𝒆 𝒇𝒖𝒕𝒆𝒃𝒐𝒍, 𝒑𝒓𝒐𝒗𝒂𝒗𝒆𝒍𝒎𝒆𝒏𝒕𝒆 𝒆𝒔𝒕𝒂𝒓𝒆𝒊 𝒃𝒖𝒛𝒊𝒏𝒂𝒏𝒅𝒐 𝒃𝒊𝒃𝒊 🚗
 
@@ -57,7 +57,7 @@
 𝒔𝒆 𝒆𝒖 𝒏𝒂̃𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓 𝒃𝒖𝒛𝒊𝒏𝒂𝒏𝒅𝒐, 𝒗𝒐𝒄𝒆̂ 𝒑𝒓𝒐𝒗𝒂𝒗𝒆𝒍𝒎𝒆𝒏𝒕𝒆 𝒑𝒐𝒅𝒆 𝒎𝒆 𝒆𝒏𝒄𝒐𝒏𝒕𝒓𝒂𝒓 𝒑𝒐𝒓 𝒂𝒒𝒖𝒊:
 
 <p>
-  <a href="https://portifolio-b8h8.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contato/portfolio-dark.svg" /><img src="assets/contato/portfolio.svg" alt="portfólio" /></picture></a>
+  <a href="https://buzina.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contato/portfolio-dark.svg" /><img src="assets/contato/portfolio.svg" alt="portfólio" /></picture></a>
   <a href="https://www.linkedin.com/in/biancavs/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contato/linkedin-dark.svg" /><img src="assets/contato/linkedin.svg" alt="linkedin" /></picture></a>
   <a href="https://www.instagram.com/biibii_crf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contato/instagram-dark.svg" /><img src="assets/contato/instagram.svg" alt="instagram" /></picture></a>
 </p>
