@@ -15,7 +15,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/contribuicoes-dark.svg" />
-    <img src="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/contribuicoes.svg" alt="𝒎𝒊𝒏𝒉𝒂𝒔 𝒄𝒐𝒏𝒕𝒓𝒊𝒃𝒖𝒊𝒄̧𝒐̃𝒆𝒔 𝒏𝒐 𝒈𝒊𝒕𝒉𝒖𝒃 𝒅𝒆 𝒋𝒖𝒍𝒉𝒐 𝒆𝒎 𝒅𝒊𝒂𝒏𝒕𝒆" />
+    <img src="https://raw.githubusercontent.com/buzinei-bibi/buzinei-bibi/output/contribuicoes.svg" alt="minhas contribuições no github de julho em diante" />
   </picture>
 </p>
 
