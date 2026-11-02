@@ -1,4 +1,4 @@
-<h1 align="center">𝒐𝒊, 𝒆𝒖 𝒔𝒐𝒖 𝒂 𝒃𝒖𝒛𝒊𝒏𝒂 .. 𝒃𝒖𝒛𝒊𝒏𝒂 𝒅𝒆 𝒃𝒊𝒃𝒊 <img src="assets/carla-mini.webp" height="36" align="absmiddle" alt="carla veloso" /></h1>
+<h1 align="center">𝒐𝒊, 𝒆𝒖 𝒔𝒐𝒖 𝒂 𝒃𝒖𝒛𝒊𝒏𝒂 .. 𝒃𝒖𝒛𝒊𝒏𝒂 𝒅𝒆 𝒃𝒊𝒃𝒊 <img src="assets/carla-mini.webp" height="30" align="absmiddle" alt="carla veloso" /></h1>
 
 ## 𝒔𝒐𝒃𝒓𝒆 𝒎𝒊𝒎
 
