@@ -7,6 +7,7 @@ import base64, datetime as dt, json, os, re, sys, urllib.request
 from pathlib import Path
 
 INICIO = dt.date(2026, 7, 1)
+PASSO = 0.09
 MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez']
 FONTE = Path(__file__).resolve().parent.parent / 'assets' / 'fonts' / 'stix-two-text-bold-italic.woff2'
 
@@ -53,9 +54,9 @@ def svg(dias, hoje, tema):
     # a grade começa no domingo da semana de INICIO
     comeco = INICIO - dt.timedelta(days=(INICIO.weekday() + 1) % 7)
     n_semanas = (hoje - comeco).days // 7 + 1
-    cel, gap, x0, y0 = 10, 3, 18, 44
+    cel, gap, x0, y0 = 10, 3, 18, 34
     largura = x0 * 2 + n_semanas * (cel + gap) - gap
-    altura = y0 + 7 * (cel + gap) + 14
+    altura = y0 + 7 * (cel + gap) + 15
     total = sum(n for d, n in dias.items() if INICIO <= d <= hoje)
     maximo = max([n for d, n in dias.items() if INICIO <= d <= hoje] or [0])
 
@@ -68,29 +69,30 @@ def svg(dias, hoje, tema):
             n = dias.get(d, 0)
             x, y = x0 + s * (cel + gap), y0 + dw * (cel + gap)
             atraso = s * 0.06 + dw * 0.015
-            classe = ' class="hoje"' if d == hoje else ''
+            onda = 1.6 + s * PASSO + dw * 0.02
             celulas.append(
-                f'<rect{classe} x="{x}" y="{y}" width="{cel}" height="{cel}" rx="3" '
-                f'fill="{t["niveis"][nivel(n, maximo)]}" style="animation-delay:{atraso:.2f}s">'
+                f'<rect x="{x}" y="{y}" width="{cel}" height="{cel}" rx="3" '
+                f'fill="{t["niveis"][nivel(n, maximo)]}" style="animation-delay:{atraso:.2f}s,{onda:.2f}s">'
                 f'<title>{n} em {d.day} de {MESES[d.month - 1]}</title></rect>')
             if d.month not in vistos:
                 vistos.add(d.month)
                 meses.append(f'<text class="mes" x="{x}" y="{y0 - 8}">{MESES[d.month - 1]}</text>')
 
     rotulo = 'contribuição' if total == 1 else 'contribuições'
+    # a onda leva PASSO s por semana para atravessar a grade e espera 1s antes de recomeçar
+    ciclo = n_semanas * PASSO + 1.2
+    meio, fim = 100 * .35 / ciclo, 100 * .7 / ciclo
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{largura}" height="{altura}" viewBox="0 0 {largura} {altura}" role="img" aria-label="{total} {rotulo} de julho em diante">
 <style>
 @font-face{{font-family:buzina;font-weight:700;font-style:italic;src:url(data:font/woff2;base64,{fonte}) format("woff2")}}
 text{{font-family:buzina,"STIX Two Text",Georgia,serif;font-weight:700;font-style:italic}}
-.titulo{{font-size:13px;fill:{t["mu"]}}} .total{{fill:{t["niveis"][4]}}} .mes{{font-size:10px;fill:{t["mu"]}}}
-g.grade rect{{opacity:0;transform-box:fill-box;transform-origin:center;animation:entra .45s cubic-bezier(.2,.8,.2,1.3) forwards}}
-g.grade rect.hoje{{animation:entra .45s cubic-bezier(.2,.8,.2,1.3) forwards,pulsa 1.6s ease-in-out 2s infinite}}
+.mes{{font-size:10px;fill:{t["mu"]}}}
+g.grade rect{{opacity:0;transform-box:fill-box;transform-origin:center;animation:entra .45s cubic-bezier(.2,.8,.2,1.3) forwards,onda {ciclo:.2f}s ease-in-out infinite}}
 @keyframes entra{{from{{opacity:0;transform:scale(.2)}}to{{opacity:1;transform:scale(1)}}}}
-@keyframes pulsa{{50%{{opacity:.45}}}}
+@keyframes onda{{0%,{fim:.1f}%,100%{{transform:scale(1);filter:none}}{meio:.1f}%{{transform:scale(1.4);filter:brightness(1.7)}}}}
 @media (prefers-reduced-motion:reduce){{g.grade rect{{animation:none;opacity:1}}}}
 </style>
 <rect width="{largura}" height="{altura}" rx="18" fill="{t["bg"]}" stroke="{t["borda"]}"/>
-<text class="titulo" x="{x0}" y="22"><tspan class="total">{total}</tspan> {rotulo} de julho em diante</text>
 {"".join(meses)}
 <g class="grade">{"".join(celulas)}</g>
 </svg>'''
